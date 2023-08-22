@@ -1,0 +1,93 @@
+body {
+    background-color: aqua;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-container div {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+
+.value {
+    background-color: black;
+    color: white;
+    grid-column: 1 / 5;
+}
+
+.sign1 {
+    background-color:azure;
+}
+.sign2 {
+    background-color:azure;
+}
+.sign3 {
+    background-color:azure;
+}
+.sign4 {
+    background-color:azure;
+}
+
+.equal {
+    background-color: orange;
+    grid-column: -1 / -2;
+    grid-row: -1 / -5;
+}
+
+.number0 {
+    background-color: white;
+}
+
+.number1 {
+    background-color: white;
+}
+
+.number2 {
+    background-color: white;
+}
+
+.number3 {
+    background-color: white;
+}
+
+.number4 {
+    background-color: white;
+}
+
+.number5 {
+    background-color: white;
+}
+
+.number6 {
+    background-color: white;
+}
+
+.number7 {
+    background-color: white;
+}
+
+.number8 {
+    background-color: white;
+}
+
+.number9 {
+    background-color: white;
+}
+
+.dot {
+    background-color: white;
+}
+
+.cancel {
+    background-color: white;
+}
